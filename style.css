@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');    
     @font-face {
-            font-family: "";
+            font-family: "wayfinder";
             src: url("Font/Demo_Fonts/Fontspring-DEMO-wayfindercf-bold.otf")
             
             /* ("Demo_Fonts/Fontspring-DEMO-wayfindercf-bold.otf"); */
         }
+
+
+        @font-face {
+            font-family: "wayfinderextra";
+            src: url("Font/Demo_Fonts/Fontspring-DEMO-wayfindercf-extrabold.otf")
+            
+        }
+
 
         @font-face {
             font-family: "Grotesk";
@@ -255,7 +263,7 @@ font-weight: 400;
 
 
 .section_five_wrap_flex_item_1 >h2{
-    font-family: "wayfinder ";
+    font-family: "wayfinder";
     font-size: 4rem;
     font-weight: 400;
 }
@@ -467,39 +475,118 @@ font-weight: 700;
 .row_item ul {
  
     margin-top: 2rem;
+    font-size: 20px;
     
     }
 
 .row_item ul >li {
 margin-bottom: 2rem;
-
+list-style-image: url(/images/check.svg);
 
 }
+
+
+
+.section_eight_wrap_sec3{
+    text-align: center;
+}
+
+.section_eight_wrap_sec3 > h3{
+    font-size: 24px;
+    font-family: "FoundersBold";
+    font-weight: 700;
+}
+
+.section_eight_wrap_sec3 a{
+    background-color: #007297;
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+
+}
+ 
+
+
+/* section nine  */
+
+.section_nine{
+    padding: 4rem 0rem;
     
-@media (min-width: 992px) { 
-.section_two_div2{
-    margin: 0 5rem;
+}
+.section_nine_sec1{
+    text-align: center;
+    font-family: "Foundersmono";
 }
 
-.section_three_wrap{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+.section_nine_sec1 > :first-child{
+    font-family: "FoundersBold";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
 }
 
-.section_three_wrap >:nth-child(2){
-    padding-left: 3rem;
-    padding-right: 3rem;
+.section_nine_wrap_inner1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section_nine_wrap_inner1 >:first-child{
+    background-color: #eeeeee;
+    padding: 0 1rem;
 }
 
 
-.section_seven_wrap_1 > h3{
-font-family: "Foundersmono";
-font-size: 18px;
-font-weight: 700;
+.section_nine_wrap_inner1 >:first-child{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
 }
 
-.section_seven_wrap_1 > p{
+.section_nine_wrap_inner1 > div >h2{
+
+    font-family: "wayfinder";
+    font-weight: 700;
+    font-size: 64px;
+    
+}
+
+
+.section_nine_wrap_inner1 > div >h4{
+
+    font-family: "wayfinder";
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.section_nine_wrap_inner1 > div >:last-child{
+
+    font-family: "Foundersmono";
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.section_nine_wrap_inner1_img{
+    display: none;
+}
+
+
+
+
+.section_nine_Sec3 >a{
+    border-radius: 50px;
+    background-color: #007297;
+    color: white;
+    font-family: "Foundersmono";
     font-size: 14px;
-    }
-
- }
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

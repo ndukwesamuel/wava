@@ -175,5 +175,48 @@ font-size: 20px;}
 
 .section_seven_wrap_Sec2 >p{
     font-size: 18px;}
+
     
+
+
+
+    .section_eight_wrap_sec3 > h3{
+        font-size: 42px;
+      
+    }
+    
+    .section_eight_wrap_sec3 a{
+ font-size: 21px;
+ padding: 1rem 1rem;
+    
+    }
+
+.section_eight_wrap_sec1 > h3{
+    font-size: 42px;
+}
+
+.section_eight_wrap_sec1 > h5{
+    font-size: 28px;
+}
+
+.section_eight_wrap .row_item{
+    margin-top: 3rem;
+    /* height: 10rem; */
+    height: 100rem;
+}
+
+
+
+/* section nine  */
+.section_nine_wrap_inner1_img{
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.section_nine_Sec3{
+    margin: auto;
+    width: 50%;
+}
+
+
 }
