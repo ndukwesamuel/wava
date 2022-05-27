@@ -590,3 +590,135 @@ list-style-image: url(/images/check.svg);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
+
+/* section_ten */
+
+.section_ten{
+    background-color: #efefef;
+    padding-top: 2rem;
+}
+
+.section_ten_wrap{
+    text-align: center;
+}
+
+.section_ten_wrap > :first-child{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "FoundersBold";
+}
+
+.section_ten_wrap > h5{
+   font-size: 18px;
+   margin-top: 1rem;
+   font-weight: 400;
+}
+
+.section_ten_wrap_btn{
+    border-radius: 50px;
+    background-color: #007297;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 2rem;
+}
+
+
+.section_eleven{
+    background-color:#f5ad2a;
+    padding-top: 3rem;
+}
+
+
+.section_eleven_wrap{
+    padding-bottom: 5rem;
+}
+
+.section_eleven_wrap >h2{
+    font-size: 64px;
+    font-family: "wayfinder";
+    text-align: center;
+    padding: 0 1rem;
+   
+}
+
+.section_eleven_wrap_item{
+    background-color: white;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+
+}
+
+.section_eleven_wrap_item > img{
+    margin: auto;
+    display: block;
+}
+
+.section_eleven_wrap_item >:nth-child(2){
+    font-size: 48px;
+    font-family: "wayfinder";
+    text-align: center;
+}
+
+.section_eleven_wrap_item > p{
+    font-size: 18px;
+}
+
+
+.section_12{
+    padding-top: 5rem;
+}
+.section_12_wrap{
+    text-align: center;
+}
+
+
+.section_12_wrap > :first-child{
+    font-family: "wayfinder";
+    font-size: 64px;
+}
+
+.section_12_wrap_div2{
+    background-color:#007297;
+    color: white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.section_12_wrap_div2 >h5{
+    text-decoration: line-through;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.section_12_wrap_div2 >h3{
+    font-weight: 700;
+    font-size: 18px;
+    font-size: 24px;
+}
+
+.section_12_wrap_div2 a{
+    color: white;
+    background-color:#f5ad2a;
+    display: block;
+    padding: 1rem 1rem;
+    border-radius: 50px;
+}
+
+.section_12_wrap_div2 > h6{
+    font-weight: 700;
+    font-family: "FoundersBold";
+    letter-spacing:0.3rem;
+}
+
+.section_12_wrap_div3 > img{
+    margin: auto;
+    display: block;
+    margin-top: 3rem;
+}

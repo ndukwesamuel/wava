@@ -219,4 +219,49 @@ font-size: 20px;}
 }
 
 
+
+
+.section_ten_wrap > :first-child{
+    font-size: 42px;
+    padding: 15px;
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+.section_ten_wrap > h5{
+    font-size: 28px;
+    padding: 0 3rem;
+ }
+
+ .section_ten_wrap_div_link{
+     margin: auto;
+     width: 50%;
+ }
+ 
+
+ 
+.section_ten_wrap_btn{
+   padding: 1rem 3rem;
+
+}
+
+
+.section_12_wrap > :first-child{
+    font-size: 96px;
+}
+
+.section_12_wrap_div2{
+    background-color:#007297;
+    margin: auto;
+    width: 60%;
+}
+
+
+.section_12_wrap{
+    margin: auto;
+    width: 70%;
+}
+
 }
