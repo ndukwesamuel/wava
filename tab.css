@@ -1,0 +1,179 @@
+
+
+@media (min-width: 768px) { 
+.section_one_wrap{
+    padding-top:3rem ;
+
+}
+
+.sec_1_flex_itemTwo{
+    display: block;
+    flex: 6;
+    margin-top: 3rem;
+
+}
+
+.sec_1_flex{
+    display: flex;
+    gap: 2rem;
+    /* align-items: center; */
+}
+
+.sec_1_flex_itemOne{
+    flex: 6;
+}
+
+.sec_1_flex_itemOne > h3{
+    font-size: 2.625rem;
+}
+
+.sec_1_flex_itemOne > h3 > span{
+margin-bottom: 2rem;
+display: block;}
+
+
+
+/* section one end here */
+
+
+.section_two_wrapper{
+    font-weight: 700;
+    padding: 2rem 2rem;
+}
+
+    .section_two_flex{
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+
+/* section  two end here */
+
+
+.section_three_wrap >:first-child{
+    font-size: 1.75rem;
+
+
+}
+
+
+    div.section_two_div2 > h3{
+        font-size: 2.6rem;
+
+    }
+    /* section_four */
+
+    .section_four_div2 > h6{
+        font-size: 1.75rem;
+    }
+    .section_four_flex{
+        display: flex;
+        gap: 1rem;
+     
+    }
+
+    .section_four_flex_item{
+        font-size: 28px;
+    }
+
+    .section_four_flex_item__{
+        font-size: 28px;
+    }
+    .section_four_div2 > h3{
+        font-size: 1.75rem;
+        padding: 2rem 1rem;
+    }
+
+    .section_four_div2 > h5{
+        font-size: 1.75rem;
+    
+    }
+    
+/* section 4 end here */
+
+    /* .section_five */
+
+
+.section_five_wrap_sec2 >h6{
+    font-family: "Foundersmono";
+    font-size: 28px;
+    padding: 0 3rem;
+
+}
+
+.section_five_wrap_flex_item_2{
+    display: block;
+}
+
+.section_five_wrap_flex_item{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.section_five_wrap_flex_item_2{
+    flex: 5;
+}
+
+.section_five_wrap_flex_item_1{
+flex: 5;
+}
+
+.section_five_wrap_flex_item_2 > img{
+    width: 14.063rem;
+}
+
+.section_five_wrap_flex_item_1 >h2{
+    font-size: 6rem;
+}
+.section_five_wrap_flex_item_1 >h4 :first-child{
+    font-size: 2rem;
+}
+
+/* section six */
+
+.section_six_Wrap > h3{
+
+    padding-right: 80px;
+    padding-left: 80px;
+font-size: 42px;}
+
+/* section seven */
+
+.section_seven_wrap_1{
+    flex: 7;
+}
+.section_seven_wrap_1 >:nth-child(2){
+    font-size: 96px;
+}
+.section_seven_wrap_1 > h3{
+    font-size: 42px;
+    font-weight: 400;
+}
+.section_seven_wrap_1 >:first-child{
+    font-size: 20px;
+    letter-spacing: 0.3em;
+}
+.section_seven_wrap_2 >h4{
+    font-size: 32px;
+    font-family: "FoundersBold";
+}
+
+.section_seven_wrap_2 > p{
+    font-size: 18px;
+}
+
+.section_seven_wrap_Sec2{
+    padding: 3rem 5rem;
+}
+
+
+.section_seven_wrap_Sec2 >h6{
+font-size: 20px;}
+
+
+.section_seven_wrap_Sec2 >p{
+    font-size: 18px;}
+    
+}

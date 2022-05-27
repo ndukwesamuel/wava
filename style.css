@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');    
+    @font-face {
+            font-family: "";
+            src: url("Font/Demo_Fonts/Fontspring-DEMO-wayfindercf-bold.otf")
+            
+            /* ("Demo_Fonts/Fontspring-DEMO-wayfindercf-bold.otf"); */
+        }
+
+        @font-face {
+            font-family: "Grotesk";
+            src: url("Font/Grotesk/Grotesk.ttf")
+            
+        }
+
+        
+        @font-face {
+            font-family: "FoundersBold";
+            src: url("Font/Founders_Grotesk/FoundersGrotesk-Bold.otf")
+            wayfinder
+        }
+
+        @font-face {
+            font-family: "Foundersmono";
+            src: url("Font/Founders_Grotesk/FoundersGrotesk-Light.otf")
+            
+        }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.section_one{
+    background-color: #f5ad2a;
+}
+
+
+.section_one_wrap{
+    text-align: center;
+}
+.section_one_wrap > h1{
+
+    text-align: center;
+    font-size: 3.875rem;
+    font-family: "wayfinder";
+
+    
+}
+
+
+.sec_1_flex_itemTwo{
+    display: none;
+}
+
+.sec_1_flex_itemOne > h3 {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.sec_1_flex_itemTwo_btn{
+    background-color: #007297;
+    color: white;
+    border-radius: 3.125rem;
+    font-size: 120%;
+    font-weight: 700;
+    padding: 12px 40px;
+    margin: 2rem 0;
+}
+
+
+.sec_3{
+    display: none;
+}
+
+
+
+/* section 2 start here */
+
+
+.section_two_flex_item{
+    border:  2px dashed black;
+    background-color: white;
+    border-radius: 4px;
+    padding: 1.875rem;
+    text-align: center  ;
+    margin-bottom: 3rem;
+}
+
+
+.section_two_flex_item > p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.section_two_wrapper{
+    padding-bottom: 4rem;
+}
+
+.section_two_wrapper > h3{
+    font-weight: 700;
+    text-align: center;
+        font-family: "FoundersBold";
+        margin-top: 2rem;
+        padding: 0 1rem;
+    
+}
+
+
+.section_two_wrapper > h3 >span:first-child{
+        font-family: "FoundersBold";
+}
+
+
+.section_two_div2{
+    text-align: center;
+    background-color: #007297;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+div.section_two_div2 > h6{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+ div.section_two_div2 > h3{
+
+     font-size: 1.5rem;
+     margin: 2rem 0;
+     font-family: "FoundersBold";
+     font-weight: 700;
+
+ }
+/* .section_two_flex */
+
+
+/* section_three */
+
+.section_three{
+    background-color: #f5ad2a;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.section_three_wrap >:first-child{
+    font-size: 1.125rem;
+    margin-top: 2rem;
+    font-family: "Foundersmono";
+
+}
+
+.section_three_wrap >:nth-child(2){
+    margin-top: 2rem;
+    font-family: "wayfinder";
+    font-size: 4rem;
+    padding: 2rem 0;
+    
+}
+
+.section_three_wrap_last {
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+/* section_four */
+
+.section_four_wrapper{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.section_four_wrapper >:first-child{
+    font-weight: 700;
+font-size: 1.5rem;    
+}
+
+.section_four_flex_item{
+    border: 2px dashed black;
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.section_four_flex_item__{
+
+    /* border: 2px dashed black; */
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #007297;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+
+}
+
+.section_four_div2{
+    padding: 2rem 1rem;
+}
+
+
+.section_four_div2 > h3{
+    font-size: 1.2rem;
+font-weight: 400;
+
+}
+
+.section_four_div2 > img {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.section_four_div2 > h6{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "FoundersBold";
+    font-style: italic;
+}
+
+.section_four_div2 > h5{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "FoundersBold";
+
+}
+
+
+/* section_five */
+.section_five{
+    background-color: #f5ad2a;
+    /* padding-bottom: 2rem; */
+}
+
+.section_five_wrap_flex_item_1{
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.section_five_wrap_flex_item_1 >h2{
+    font-family: "wayfinder ";
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.section_five_wrap_flex_item_2{
+    display: none;
+}
+
+.section_five_wrap{
+    padding: 3rem 0rem;
+    text-align:center;
+
+}
+
+/* .section_five_wrap_flex_item_1 */
+
+.section_five_wrap_flex_item_1 >h4 :first-child{
+    margin-bottom: 1rem;
+    font-family: "FoundersBold";
+    /* Foundersmono */
+}
+
+.section_five_wrap_flex_item_1 >h4 :last-child{
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Foundersmono";
+}
+
+
+
+.section_five_wrap > h2{
+    font-family: "wayfinder";
+    font-size:4rem;
+}
+
+.section_five_wrap > h6{
+    font-size:16px;
+    font-family: "Foundersmono";
+}
+
+.section_five_wrap_sec2 > h1{
+    font-family: "Foundersmono";
+    font-weight: 400;
+}
+
+.section_five_wrap_sec2 >h6{
+    font-family: "Foundersmono";
+    font-size: 18px;
+
+}
+
+
+/* section 6 */
+
+.section_six{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section_six_Wrap{
+    padding: 2rem 0rem ;
+    text-align: center;
+
+
+}
+
+.section_six_Wrap > h3{
+    font-family: "FoundersBold";
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-weight: 700;
+font-size: 24px;}
+
+.section_six_Wrap_img{
+    margin-top: 2rem;
+}
+
+/* section7 */
+.section_seven{
+
+background-color: #007297;
+color: white;
+padding-top:3rem;
+text-align: center;
+}
+
+.section_seven_wrap_2{
+    background-color: white;
+    color: black;
+    border-radius: 0.3rem;
+    padding: 2rem 2rem;
+    margin: 0 1rem;
+}
+
+.section_seven_wrap_1{
+
+}
+
+.section_seven_wrap_1 >:first-child{
+    font-family: "Foundersmono";
+}
+
+
+.section_seven_wrap_1 >:nth-child(2){
+    font-family: "wayfinder";
+    font-size: 64px;
+
+}
+
+.section_seven_wrap_2 >h4{
+    font-weight: 700;
+    font-family: "Foundersmono";
+}
+
+.section_seven_wrap_2 > h5{
+    text-decoration: line-through;
+    font-family: "FoundersBold";
+}
+
+
+.section_seven_wrap_2 > h3{
+    font-family: "FoundersBold";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section_seven_wrap_2_btn {
+    background-color:#f5ad2a;
+    border-radius: 50px;
+    border-color: #f5ad2a;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 2rem;
+
+}
+
+.section_seven_wrap_Sec2{
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.section_seven_wrap_Sec2 > h6{
+    font-size: 16px;
+    font-family: "FoundersBold";
+    letter-spacing:0.3em
+}
+
+.section_seven_wrap_Sec2 > p{
+    font-size: 14px;
+    padding: 0 2rem;
+}
+
+
+/* section_eight */
+
+
+.section_eight{
+    background-color: #f5ad2a;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+.section_eight_wrap_sec1{
+    text-align: center;
+}
+
+.section_eight_wrap_sec1 > h3{
+font-size: 24px;
+font-family: "FoundersBold";
+padding: 0 2rem;
+font-weight: 700;
+
+}
+
+.section_eight_wrap_sec1 > h5{
+    font-size: 14px;
+    }
+
+    .row_item{
+        background-color: white;
+        color: black;
+        padding: 2rem 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .row_item > :first-child{
+        font-size: 16px;
+        letter-spacing: .3em;
+        text-align: center;
+        
+    }
+    
+.row_item > :nth-child(2){
+        text-align: center;
+        font-family: "wayfinder";
+  font-size: 48px;      
+  font-weight: bolder;
+    }
+
+
+        
+.row_item > :nth-child(3){
+    text-align: center;
+    letter-spacing: .3em;
+
+
+}
+
+.row_item ul {
+ 
+    margin-top: 2rem;
+    
+    }
+
+.row_item ul >li {
+margin-bottom: 2rem;
+
+
+}
+    
+@media (min-width: 992px) { 
+.section_two_div2{
+    margin: 0 5rem;
+}
+
+.section_three_wrap{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.section_three_wrap >:nth-child(2){
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.section_seven_wrap_1 > h3{
+font-family: "Foundersmono";
+font-size: 18px;
+font-weight: 700;
+}
+
+.section_seven_wrap_1 > p{
+    font-size: 14px;
+    }
+
+ }
