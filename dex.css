@@ -1,6 +1,10 @@
   
 
 @media (min-width: 992px) { 
+
+    .sec_1_flex_itemOne{
+        text-align: left;
+    }
     .section_two_div2{
         margin: 0 5rem;
     }
