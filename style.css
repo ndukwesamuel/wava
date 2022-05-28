@@ -885,10 +885,7 @@ color: black;
 .section_15_wrap1_drop_h5 >:last-child{
     display: block;
 }
-.section_15_wrap1 .last{
-    margin: auto;
-    width: 50%;
-}
+
 
 .section_15_wrap_2{
     margin: auto;
@@ -957,4 +954,35 @@ color: black;
     background-color: #f5ad2a;
     border-radius: 50px;
     font-size: 24px;
+}
+
+.section_16_wrap4{
+    text-align: center;
+}
+
+.section_16_wrap4{
+    margin-top: 2rem;
+    
+}
+
+.section_16_wrap4 > h6{
+
+    letter-spacing: 0.3em;
+    font-family: "FoundersBold";
+
+    
+}
+
+.section_16_wrap4 > p{
+
+font-weight: 400;    
+}
+
+.section_16_wrap3 a{
+    display: block;
+}
+
+.section_16_wrap3{
+    margin-bottom: 2rem;
+  
 }

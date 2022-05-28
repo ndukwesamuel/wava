@@ -366,5 +366,26 @@ font-size: 20px;}
     }
     
    
+    .section_15_wrap1 .last{
+        margin: auto;
+        width: 50%;
+    }
+
+
+    .section_16_wrap3{
+        margin-bottom: 12rem;
+        width: 80%;
+        margin: auto;
+    }
+        
+   
+    .section_16_wrap4 {
+        margin-top: 5rem;
+        margin: auto;
+        width: 50%;
+    }
+
+
+    
 }
 
