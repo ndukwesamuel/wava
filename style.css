@@ -24,7 +24,6 @@
         @font-face {
             font-family: "FoundersBold";
             src: url("Font/Founders_Grotesk/FoundersGrotesk-Bold.otf")
-            wayfinder
         }
 
         @font-face {
@@ -721,4 +720,241 @@ list-style-image: url(/images/check.svg);
     margin: auto;
     display: block;
     margin-top: 3rem;
+}
+
+.section_13{
+    background-color: #eeeeee;
+    padding-top: 3rem;
+}
+
+.section_13_wrap_flex_item{
+    background-color: white;
+    color: black;
+}
+
+.section_13_wrap_flex_item{
+    text-align: center;
+    border-radius: 0.3rem;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.section_13_wrap_flex_item >h1{
+    font-weight: 700;
+font-size: 56px;
+font-family: "wayfinder";}
+
+
+.section_13_wrap_flex_item >h5{
+    font-size: 28px;
+    font-family: "FoundersBold";}
+
+  .section_13_wrap  >h3{
+    font-family: "FoundersBold";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }  
+
+
+  .section_13_wrap a{
+      background-color: #007297;
+      border-radius: 50px;
+      text-align: center;
+      font-weight: 700;
+  
+  }
+
+  .section_13_wrap_2{
+      margin: auto;
+      text-align: center;
+  }
+  
+
+  .section_13_wrap_2 img{
+    width: 26rem;
+}
+
+.section_14{
+    background-color: #f5ad2a;
+color: white;
+padding-top:3rem;
+text-align: center;
+color: black;
+
+}
+
+
+.section_14_wrap_2{
+    background-color: white;
+    color: black;
+    border-radius: 0.3rem;
+    padding: 2rem 2rem;
+    margin: 0 1rem;
+}
+
+.section_14_wrap_1{
+
+}
+
+.section_14_wrap_1 >:first-child{
+    font-family: "Foundersmono";
+}
+
+
+.section_14_wrap_1 >:nth-child(2){
+    font-family: "wayfinder";
+    font-size: 64px;
+
+}
+
+.section_14_wrap_2 >h4{
+    font-weight: 700;
+    font-family: "Foundersmono";
+}
+
+.section_14_wrap_2 > h5{
+    text-decoration: line-through;
+    font-family: "FoundersBold";
+}
+
+
+.section_14_wrap_2 > h3{
+    font-family: "FoundersBold";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section_14_wrap_2_btn {
+    background-color:#f5ad2a;
+    border-radius: 50px;
+    border-color: #f5ad2a;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 2rem;
+
+}
+
+.section_14_wrap_Sec2{
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.section_14_wrap_Sec2 > h6{
+    font-size: 16px;
+    font-family: "FoundersBold";
+    letter-spacing:0.3em
+}
+
+.section_14_wrap_Sec2 > p{
+    font-size: 14px;
+    padding: 0 2rem;
+}
+
+.section_15{
+    background-color: #efefef;
+    padding-top: 2rem;
+}
+
+.section_15_wrap > h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "FoundersBold";
+    padding: 0 2rem;
+}
+
+
+.section_15_wrap1_drop{
+    background-color: white;
+    border: 2px dashed black;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+.section_15_wrap1_drop_h5{
+    display: flex;
+    background-color: white;
+}
+
+.section_15_wrap1_drop_h5 >:first-child{
+    display: block;
+}
+
+.section_15_wrap1_drop_h5 >:last-child{
+    display: block;
+}
+.section_15_wrap1 .last{
+    margin: auto;
+    width: 50%;
+}
+
+.section_15_wrap_2{
+    margin: auto;
+    text-align: center;
+}
+
+
+.section_15_wrap_2 img{
+  width: 26rem;
+}
+
+.section_15_wrap_2_A {
+    background-color: #007297;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.section_16{
+    background-color: #007297;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section_16_wrap2_item{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+
+.section_16_wrap2_item{
+    padding: 2rem 2rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 28px;
+    color: black;
+}
+
+.section_16_wrap1 >  h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+
+.section_16_wrap1 >  h5{
+
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.section_16_wrap3{
+    text-align: center;
+}
+
+.section_16_wrap3 a{
+    background-color: #f5ad2a;
+    border-radius: 50px;
+    font-size: 24px;
 }

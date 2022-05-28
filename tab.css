@@ -64,6 +64,27 @@ display: block;}
     }
     /* section_four */
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     .section_four_div2 > h6{
         font-size: 1.75rem;
     }
@@ -264,4 +285,86 @@ font-size: 20px;}
     width: 70%;
 }
 
+.section_13_wrap_flex{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+
 }
+
+.section_13_wrap_flex_item{
+    width: 30%;
+}
+
+.section_13_wrap  >h3{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 1rem 4rem;
+  }  
+  
+  
+
+
+  .section_13_wrap_flex_item >h5{
+    font-size: 28px;
+    font-family: "FoundersBold";}
+
+    
+  .section_13_wrap a{
+font-size: 1rem;
+padding: 1rem 2rem;
+margin-bottom: 1rem;
+
+}
+
+
+
+.section_14_wrap_1{
+    flex: 7;
+}
+.section_14_wrap_1 >:nth-child(2){
+    font-size: 96px;
+}
+.section_14_wrap_1 > h3{
+    font-size: 42px;
+    font-weight: 400;
+}
+.section_14_wrap_1 >:first-child{
+    font-size: 20px;
+    letter-spacing: 0.3em;
+}
+
+.section_14_wrap_2{
+    margin-top: 7rem;
+}
+.section_14_wrap_2 >h4{
+    font-size: 32px;
+    font-family: "FoundersBold";
+}
+
+.section_14_wrap_2 > p{
+    font-size: 18px;
+}
+
+.section_14_wrap_Sec2{
+    padding: 3rem 5rem;
+}
+
+
+.section_14_wrap_Sec2 >h6{
+font-size: 20px;}
+
+
+.section_14_wrap_Sec2 >p{
+    font-size: 18px;}
+
+    .section_16_wrap2{
+        display: flex;
+        gap: 1rem;
+    }
+    
+   
+}
+
